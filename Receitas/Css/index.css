@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* cabeçalho */
+.site-header {
+    background-color: #E84E0C; /* Define a cor de fundo como #E84E0C */
+    color: #ECF0F1; /* Define a cor do texto como #ECF0F1 */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    padding: 30px 0; /* Adiciona preenchimento de 30 pixels na parte superior e inferior */
+    font-family: 'Whisper', cursive; /* Define a fonte como 'Whisper' ou qualquer fonte cursiva disponível */
+}
+
+/* Estilos para o título h1 dentro de .site-header */
+.site-header h1 {
+    margin: 0; /* Remove a margem ao redor do título h1 */
+    font-size: 75px; /* Define o tamanho da fonte como 75 pixels */
+}
+
+/* Estilos para parágrafos dentro de .site-header */
+.site-header p {
+    font-size: 35px; /* Define o tamanho da fonte como 35 pixels */
+    margin: 0; /* Remove a margem ao redor dos parágrafos */
+}
+
+/* Estilos para a navegação do site */
+.site-nav {
+    background-color: #AE3A09; /* Define a cor de fundo como #AE3A09 */
+    padding: 15px; /* Adiciona preenchimento de 15 pixels */
+    font-family: 'Roboto', sans-serif; /* Define a fonte como 'Roboto' ou qualquer fonte sans-serif disponível */
+}
+
+/* Estilos para listas dentro de .site-nav */
+.site-nav ul {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    margin: 0; /* Remove margens padrão da lista */
+    padding: 0; /* Remove preenchimentos padrão da lista */
+    text-align: center; /* Centraliza o texto dentro da lista */
+}
+
+/* Estilos para itens de lista dentro de .site-nav */
+.site-nav li {
+    display: inline; /* Exibe os itens da lista em linha (horizontalmente) */
+    margin-right: 20px; /* Adiciona uma margem à direita de 20 pixels entre os itens */
+}
+
+/* Estilos para links dentro de .site-nav */
+.site-nav a {
+    text-decoration: none; /* Remove a decoração de texto (sublinhado padrão) dos links */
+    color: #ECF0F1; /* Define a cor do texto dos links como #ECF0F1 */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 18px; /* Define o tamanho da fonte como 18 pixels */
+}
+
+/* Estilos para links durante o hover dentro de .site-nav */
+.site-nav a:hover {
+    color: #E74C3C; /* Define a cor do texto dos links durante o hover como #E74C3C */
+}
+/* cabeçalho */
+
+/* 
+receitas */
+.receita {
+    margin: 40px 20px;
+    
+    
+}
+
+.receita article {
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+    padding: 20px; /* Adicionando um espaçamento interno */
+}
+
+.receita article p {
+    color: orangered;
+    margin-bottom: 15px; /* Adicionando margem inferior para espaçamento entre parágrafos */
+}
+
+.receita article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0; /* Adicionando margem acima e abaixo da imagem */
+}
+
+.receita article h2 {
+    color: #E74C3C;
+    margin-bottom: 10px; /* Adicionando margem inferior ao título */
+}
+
+.receita article a {
+    display: inline-block;
+    background-color: #E74C3C;
+    color: #ECF0F1;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.receita article a:hover {
+    background-color: #C0392B;
+}
+
+/* 
+receitas */
+
+/* mensagem final */
+.secao-final {
+    text-align: center;
+    padding: 40px 20px;
+    color: #c46a04;
+    margin-bottom: 0px;
+}
+
+
+.texto-borda {
+    border: 1px solid #BDC3C7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.texto-borda h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.texto-borda p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+/* mensagem final */
+
+
+
+
+/*rodape */
+.site-footer {
+    background-color:  #E84E0C;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+/* 
+rodape */
+
